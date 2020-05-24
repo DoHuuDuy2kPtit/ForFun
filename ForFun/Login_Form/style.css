@@ -1,0 +1,132 @@
+body{
+    width: 100%;;
+    background: -webkit-linear-gradient(0deg,#3c96ff 0%,#2dfbff 100%);
+    font-size: 17px;
+    font-family: "Robato", sans-serif;
+}
+
+.login-box{
+    width: 420px;
+    height: 500px;
+    background-color: #ffffff4d;
+    margin: 120px auto;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.12), 0 12px 40px rgba(0,0,0,0.24);
+    border-radius: 3px;
+}
+
+.btn{
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 0.9rem;
+    outline: none;
+    border: none;
+}
+
+.social_login{
+    width:385px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_btn{
+    width: 190px;
+    height: 36px;
+    color: white;
+
+}
+
+.facebook_btn{
+    background-color: #3C589C;
+}
+
+.google_btn{
+    background-color: #DF4B3B;
+}
+
+.input-box_group{
+    position: relative;
+}
+
+.login-box_input{
+    width: 361px;
+    height: 45px;
+    margin: 0 auto;
+    padding: 0px 12px;
+}
+
+.login-box_input-email{
+    display: block;
+    margin-bottom: 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+}
+
+.login-box_input-pass{
+    display: block;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+
+.remember-pass-wrap{
+    margin: 10px 0px;
+    display: flex;
+    line-height: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    color: white;
+}
+.remember-password__checkbox{
+    display: block;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.remember-pass__text{
+    display: block;
+}
+
+.invalidEmail{
+    display: block;
+    /* margin: 5px auto; */
+    color: red;
+    padding: 5px 18px;
+}
+
+.submit{
+    margin-top: 12px;
+    width: 384px;
+    background: -webkit-linear-gradient(0deg,  #2dfbff 0%, #3c96ff 100%);
+}
+
+.forgot-password{
+    display: block;
+    margin-top:12px;    
+    margin-left:17.5px;
+    margin-right:17.5px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.sign-up {
+    margin: 17px auto;
+    width: 384px;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+}
+
+.sign-up:hover{
+    background-color: #0069d9;
+}
+
+/* Register form */
