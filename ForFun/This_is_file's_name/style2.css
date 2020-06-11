@@ -5,8 +5,8 @@ body {
 
 .content {
     background-color:transparent;
-    width: 610px;
-    height: 200px;
+    width: 600px;
+    height: 150px;
     margin: 250px auto;
     display: flex;
 }
@@ -15,20 +15,21 @@ body {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 9vw;
+    font-size: 7vw;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 20px;
 }
 
 .black_word {
+    align-items: center;
     background-color: #FF9900;
     color: black;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 9vw;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-size: 7vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-left: 12px;
     padding-right: 12px;
     border-radius: 1vw;
