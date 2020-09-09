@@ -1,0 +1,70 @@
+input {
+  padding: 5px;
+  border: 0px;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+input:focus {
+  border-bottom: 2px solid darkcyan;
+}
+
+input:focus ~ label {
+  color: darkcyan;
+}
+
+input + label {
+  color: gray;
+}
+
+.input-container {
+  margin: 10px 0;
+}
+
+.input-container.line-break {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.input-container.line-break > label {
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: 0;
+}
+
+.btn-primary {
+  color: darkcyan;
+  background-color: lightcyan;
+  border: 1px solid darkcyan;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: cyan;
+}
+.link {
+  color: darkcyan;
+}
+
+.link:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+#container.error > input {
+  color: red;
+  border-color: red;
+}
+
+#container.error > label {
+  color: red;
+}
+
+#container.error + div {
+  color: red;
+}
