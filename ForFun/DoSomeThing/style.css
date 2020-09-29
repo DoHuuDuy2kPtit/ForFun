@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 700px;
+    background-color: steelblue;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.circle{
+    background-color: salmon;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    bottom: 0;
+    right: 0;
+    left: 540px;
+}
+
+.line{
+    position: absolute;
+    top: 450px;
+    width: 100%;
+}
