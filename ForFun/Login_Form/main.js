@@ -1,4 +1,3 @@
-let emailRegex = /^[A-Za-z][\w\.]+@[a-z]{3,9}(\.[a-z]{3,6}){1,2}$/gm;
 
 let passRegex = /\w{6,32}/gm;
 
